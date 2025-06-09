@@ -1,0 +1,26 @@
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\bin\Debug\TransporteEscolarApp.exe.config
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\bin\Debug\TransporteEscolarApp.exe
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\bin\Debug\TransporteEscolarApp.pdb
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.csproj.AssemblyReference.cache
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.Form1.resources
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.Properties.Resources.resources
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.csproj.GenerateResource.cache
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.csproj.CoreCompileInputs.cache
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.exe
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.pdb
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\jobscodigos\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.csproj.CopyComplete
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\bin\Debug\TransporteEscolarApp.exe.config
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\bin\Debug\TransporteEscolarApp.exe
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\bin\Debug\TransporteEscolarApp.pdb
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.csproj.AssemblyReference.cache
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.Form1.resources
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.Properties.Resources.resources
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.csproj.GenerateResource.cache
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.csproj.CoreCompileInputs.cache
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.csproj.CopyComplete
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.exe
+C:\Users\gtaon\OneDrive\Escritorio\Liceo Cachi\Aplicacion Transporte\TransporteLEGS\TransporteEscolarApp\obj\Debug\TransporteEscolarApp.pdb
