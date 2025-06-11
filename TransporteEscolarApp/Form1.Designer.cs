@@ -147,7 +147,7 @@ namespace TransporteEscolarApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.dtpFechaFiltro);
@@ -159,6 +159,7 @@ namespace TransporteEscolarApp
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.txtCodigoBarras);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dgvResumen)).EndInit();
