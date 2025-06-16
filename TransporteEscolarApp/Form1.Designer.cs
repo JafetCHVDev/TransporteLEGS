@@ -41,6 +41,7 @@ namespace TransporteEscolarApp
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.dtpFechaFiltro = new System.Windows.Forms.DateTimePicker();
             this.lblTotal = new System.Windows.Forms.Label();
+            this.btnImprimir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResumen)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,12 +144,23 @@ namespace TransporteEscolarApp
             this.lblTotal.TabIndex = 9;
             this.lblTotal.Text = "Total Estudiantes";
             // 
+            // btnImprimir
+            // 
+            this.btnImprimir.Location = new System.Drawing.Point(579, 284);
+            this.btnImprimir.Name = "btnImprimir";
+            this.btnImprimir.Size = new System.Drawing.Size(75, 23);
+            this.btnImprimir.TabIndex = 10;
+            this.btnImprimir.Text = "Imprimir";
+            this.btnImprimir.UseVisualStyleBackColor = true;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnImprimir);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.dtpFechaFiltro);
             this.Controls.Add(this.textBox2);
@@ -185,6 +197,7 @@ namespace TransporteEscolarApp
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.DateTimePicker dtpFechaFiltro;
         private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Button btnImprimir;
     }
 }
 
