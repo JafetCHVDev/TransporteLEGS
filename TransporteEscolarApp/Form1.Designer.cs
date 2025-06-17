@@ -42,13 +42,14 @@ namespace TransporteEscolarApp
             this.dtpFechaFiltro = new System.Windows.Forms.DateTimePicker();
             this.lblTotal = new System.Windows.Forms.Label();
             this.btnImprimir = new System.Windows.Forms.Button();
+            this.btnGestionEstudiantes = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResumen)).BeginInit();
             this.SuspendLayout();
             // 
             // txtCodigoBarras
             // 
             this.txtCodigoBarras.BackColor = System.Drawing.SystemColors.Info;
-            this.txtCodigoBarras.Location = new System.Drawing.Point(108, 380);
+            this.txtCodigoBarras.Location = new System.Drawing.Point(509, 607);
             this.txtCodigoBarras.Name = "txtCodigoBarras";
             this.txtCodigoBarras.Size = new System.Drawing.Size(259, 20);
             this.txtCodigoBarras.TabIndex = 0;
@@ -57,7 +58,7 @@ namespace TransporteEscolarApp
             // btnRegistrar
             // 
             this.btnRegistrar.BackColor = System.Drawing.Color.Moccasin;
-            this.btnRegistrar.Location = new System.Drawing.Point(388, 370);
+            this.btnRegistrar.Location = new System.Drawing.Point(856, 597);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(95, 39);
             this.btnRegistrar.TabIndex = 1;
@@ -69,7 +70,7 @@ namespace TransporteEscolarApp
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.SystemColors.Info;
-            this.lblNombre.Location = new System.Drawing.Point(223, 24);
+            this.lblNombre.Location = new System.Drawing.Point(444, 52);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(44, 13);
             this.lblNombre.TabIndex = 2;
@@ -80,7 +81,7 @@ namespace TransporteEscolarApp
             // 
             this.lblBecado.AutoSize = true;
             this.lblBecado.BackColor = System.Drawing.SystemColors.Info;
-            this.lblBecado.Location = new System.Drawing.Point(223, 77);
+            this.lblBecado.Location = new System.Drawing.Point(444, 121);
             this.lblBecado.Name = "lblBecado";
             this.lblBecado.Size = new System.Drawing.Size(44, 13);
             this.lblBecado.TabIndex = 3;
@@ -90,15 +91,15 @@ namespace TransporteEscolarApp
             // 
             this.dgvResumen.BackgroundColor = System.Drawing.Color.Moccasin;
             this.dgvResumen.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvResumen.Location = new System.Drawing.Point(12, 119);
+            this.dgvResumen.Location = new System.Drawing.Point(292, 170);
             this.dgvResumen.Name = "dgvResumen";
-            this.dgvResumen.Size = new System.Drawing.Size(552, 189);
+            this.dgvResumen.Size = new System.Drawing.Size(839, 316);
             this.dgvResumen.TabIndex = 4;
             // 
             // btnResumen
             // 
             this.btnResumen.BackColor = System.Drawing.Color.Moccasin;
-            this.btnResumen.Location = new System.Drawing.Point(12, 311);
+            this.btnResumen.Location = new System.Drawing.Point(292, 499);
             this.btnResumen.Name = "btnResumen";
             this.btnResumen.Size = new System.Drawing.Size(95, 41);
             this.btnResumen.TabIndex = 5;
@@ -109,7 +110,7 @@ namespace TransporteEscolarApp
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.Beige;
-            this.textBox1.Location = new System.Drawing.Point(63, 12);
+            this.textBox1.Location = new System.Drawing.Point(292, 35);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(122, 39);
@@ -119,7 +120,7 @@ namespace TransporteEscolarApp
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.Beige;
-            this.textBox2.Location = new System.Drawing.Point(63, 71);
+            this.textBox2.Location = new System.Drawing.Point(292, 108);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(122, 42);
@@ -128,9 +129,9 @@ namespace TransporteEscolarApp
             // 
             // dtpFechaFiltro
             // 
-            this.dtpFechaFiltro.Location = new System.Drawing.Point(579, 93);
+            this.dtpFechaFiltro.Location = new System.Drawing.Point(1166, 170);
             this.dtpFechaFiltro.Name = "dtpFechaFiltro";
-            this.dtpFechaFiltro.Size = new System.Drawing.Size(200, 20);
+            this.dtpFechaFiltro.Size = new System.Drawing.Size(212, 20);
             this.dtpFechaFiltro.TabIndex = 8;
             this.dtpFechaFiltro.ValueChanged += new System.EventHandler(this.dtpFechaFiltro_ValueChanged);
             // 
@@ -138,7 +139,7 @@ namespace TransporteEscolarApp
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.BackColor = System.Drawing.Color.Beige;
-            this.lblTotal.Location = new System.Drawing.Point(449, 325);
+            this.lblTotal.Location = new System.Drawing.Point(1012, 499);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(89, 13);
             this.lblTotal.TabIndex = 9;
@@ -146,20 +147,31 @@ namespace TransporteEscolarApp
             // 
             // btnImprimir
             // 
-            this.btnImprimir.Location = new System.Drawing.Point(579, 284);
+            this.btnImprimir.Location = new System.Drawing.Point(1149, 451);
             this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(75, 23);
+            this.btnImprimir.Size = new System.Drawing.Size(101, 35);
             this.btnImprimir.TabIndex = 10;
             this.btnImprimir.Text = "Imprimir";
             this.btnImprimir.UseVisualStyleBackColor = true;
             this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
+            // btnGestionEstudiantes
+            // 
+            this.btnGestionEstudiantes.Location = new System.Drawing.Point(1258, 63);
+            this.btnGestionEstudiantes.Name = "btnGestionEstudiantes";
+            this.btnGestionEstudiantes.Size = new System.Drawing.Size(120, 49);
+            this.btnGestionEstudiantes.TabIndex = 11;
+            this.btnGestionEstudiantes.Text = "Gestionar Estudiantes";
+            this.btnGestionEstudiantes.UseVisualStyleBackColor = true;
+            this.btnGestionEstudiantes.Click += new System.EventHandler(this.btnGestionEstudiantes_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.ClientSize = new System.Drawing.Size(1451, 850);
+            this.Controls.Add(this.btnGestionEstudiantes);
             this.Controls.Add(this.btnImprimir);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.dtpFechaFiltro);
@@ -198,6 +210,7 @@ namespace TransporteEscolarApp
         private System.Windows.Forms.DateTimePicker dtpFechaFiltro;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Button btnImprimir;
+        private System.Windows.Forms.Button btnGestionEstudiantes;
     }
 }
 

@@ -195,6 +195,11 @@ namespace TransporteEscolarApp
             }
         }
 
+        private void btnGestionEstudiantes_Click(object sender, EventArgs e)
+        {
+            FormEstudiantes gestion = new FormEstudiantes();
+            gestion.ShowDialog();
+        }
 
     }
 }
